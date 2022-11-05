@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
-<title>Booking Mobil PBB</title>
+<title>Booking Mobil Cute Cottage</title>
 
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -118,7 +118,7 @@
               <li class="list-group-item">Mobil Perang</li>
             </ul>
             
-            <a type="button" class="btn btn-outline-primary" href="booking.php">Book Now</a>
+            <a type="button" class="btn btn-outline-primary" href="booking.php?img=https://img.inews.co.id/media/822/files/inews_new/2020/11/24/24___Inkas_1.jpg">Book Now</a>
           
           </div>
           <div class="card" style="width: 17rem;">
@@ -131,7 +131,7 @@
               <li class="list-group-item">4000cc</li>
               <li class="list-group-item">Mobil Amfibi</li>
             </ul>
-            <a type="button" class="btn btn-outline-primary" href="booking.php">Book Now</a>
+            <a type="button" class="btn btn-outline-primary" href="booking.php?img=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5PRamYeMtXDIbtai9kSrc_YQh1sozrdfhTw&usqp=CAU">Book Now</a>
           </div>
           <div class="card" style="width: 17rem;">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTRx3UyUefSsZxKWMsAlGOnvnId_04cPEfag&usqp=CAU" class="card-img-top" alt="...">
@@ -143,7 +143,7 @@
               <li class="list-group-item">2000cc</li>
               <li class="list-group-item">mobil Kodok</li>
             </ul>
-            <a type="button" class="btn btn-outline-primary" href="booking.php">Book Now</a>
+            <a type="button" class="btn btn-outline-primary" href="booking.php?img=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTRx3UyUefSsZxKWMsAlGOnvnId_04cPEfag&usqp=CAU">Book Now</a>
           </div>   
        
       </div>

@@ -13,6 +13,8 @@
 <title>Car Rental CUTE Cottage Book</title>
 <?php 
     $nama = "Fikri_1202204112";
+    $Gambar = $_GET['img'];
+  
     ?> 
 
     
@@ -97,7 +99,7 @@
     <div class="py-5 text-center">
       <h2>Rent Your Car Now!</h2>
       </div>
-      <form action = "mybooking.php" method="post">
+      
       <div class="row g-0 text-center">
         <div class="col-sm-6 col-md-8">
           <div class="row g-5">
@@ -161,7 +163,7 @@
         
                 <hr class="my-4">
         
-                <button class="w-100 btn btn-success" type="submit">Book</button>
+                <button class="w-100 btn btn-success" formaction="mybooking.php" type="submit">Book</button>
               </form>
             </div>
             <div class="col-md-7 col-lg-8">
@@ -170,7 +172,8 @@
           </div>
   </div>
   <div class="col-6 col-md-4">
-  <img src="https://img.freepik.com/free-vector/professional-car-rental-logo_23-2149509962.jpg?w=2000" class="img-fluid" alt="..."></div>
+  <img src="<?php echo $Gambar ?>"class="img-fluid" alt="..."></div>
+  
 </div>
   </main>
 
