@@ -8,7 +8,7 @@ $tanggalbeli = $_POST['tanggalbeli'];
 $desc = $_POST['desc'];
 $status = $_POST['status'];
 
-$gambar = $_FILES['gambar']['name'];
+$gambar = $_POST['gambar']['name'];
 
 $target = "../asset/images/";
 
