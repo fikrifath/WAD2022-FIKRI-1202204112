@@ -19,3 +19,6 @@ if ("SELECT foto_mobil FROM showroom_fikri_table WHERE id_mobil = $id" != 0) {
     } else {
       header("location: ../pages/ListCar-fath.php?pesan=gagal");
     }
+  }
+}
+?>
