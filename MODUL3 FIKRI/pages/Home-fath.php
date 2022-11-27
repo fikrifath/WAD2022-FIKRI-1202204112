@@ -31,10 +31,23 @@ function cekdb($result) {
         <div class="navbar-nav gap-3">
           <a class="nav-link" style="color: white;" href="#home">Home</a>
           <a class="nav-link" href="<?php cekdb($result) ?>">MyCar</a>
+           <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="Login-fath.php">Login</a>
+                </li>
+            </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         </div>
       </div>
     </div>
   </nav>
+  </div>
+
   <!-- Nav End -->
 
   <!-- Jumbotron -->
