@@ -10,7 +10,7 @@ if (isset($_POST["daftar"])) {
     $result = mysqli_query($connector, "SELECT email FROM user_fikri WHERE email = '$email'");
 
     if (mysqli_num_rows(($result)) !== 1 && $password == $pwdConfirm) {
-        $password = password_hash($password, PASSWORD_DEFAULT);
+        $password = password_hash($email, PASSWORD_DEFAULT);
         mysqli_query($connector, "INSERT INTO user_fikri VALUES ('', '$nama', '$email', '$password', '$no_hp')");
         echo "<div class='alert alert-success alert-dismissible fade show fixed-top' role='alert'>
                     <span>Register berhasil, silahkan login!</span>
