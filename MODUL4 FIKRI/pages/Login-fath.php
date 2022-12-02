@@ -7,7 +7,7 @@ if (isset($_COOKIE["email"]) && isset($_COOKIE["password"])) {
     $result = mysqli_query($connector, "SELECT * FROM user_fikri WHERE email = '$email'");
     $data = mysqli_fetch_assoc($result);
 
-    if ($email === $data["email"] && $password === $data["password"]) {
+    if ($email === $data["email"] && $password === $data["email"]) {
         $_SESSION["login"] = true;
         $_SESSION["email"] = $data["email"];
     }
