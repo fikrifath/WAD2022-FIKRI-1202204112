@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 require "../config/connector.php";
 
 if (isset($_POST["daftar"])) {
@@ -16,7 +16,7 @@ if (isset($_POST["daftar"])) {
                     <span>Register berhasil, silahkan login!</span>
                     <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
-        echo "<meta http-equiv='refresh' content='2 url=Login-fikri.php'>";
+        echo "<meta http-equiv='refresh' content='2 url=Login-fath.php'>";
     } elseif (mysqli_num_rows(($result)) === 1) {
         echo "<div class='alert alert-danger alert-dismissible fade show fixed-top' role='alert'>
                 <span>Email sudah terdaftar!</span>

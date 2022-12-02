@@ -6,6 +6,8 @@ $result = mysqli_query($connector, $sqlquery);
 
 $checkrow = mysqli_num_rows($result);
 
+
+
 if (isset($_GET['pesan'])) {
   if ($_GET['pesan'] == "berhasil") {
     echo "<div class='alert alert-success' role='alert'>
