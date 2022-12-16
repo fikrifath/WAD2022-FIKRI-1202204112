@@ -23,7 +23,7 @@ Route::get('/', [HomeController::class, 'index']);
 
 // AUTH
 Route::get('/login', [AuthController::class, 'showLogin']);
-Route::post('/doLogin', [Controller::class, 'doLogin']);
+Route::post('/doLogin', [AuthController::class, 'doLogin']);
 Route::get('/register', [AuthController::class, 'showRegister']);
 Route::post('/doRegister', [AuthController::class, 'doRegister']);
 Route::get('/doLogout', [AuthController::class, 'doLogout']);
